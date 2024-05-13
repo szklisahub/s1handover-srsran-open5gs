@@ -1,7 +1,9 @@
 # S1 Handover Simulation using srsRAN 4G with ZeroMQ and Open5GS
 
 ## Overview
-This project implements S1 Handover in a simulated environment using srsRAN 4G with ZeroMQ and Open5GS. Modifications to the setup were made to accommodate simulation requirements. Detailed documentation of changes and results can be found in the `config` and `log` directories, respectively.
+This project implements S1 Handover in a simulated environment using srsRAN 4G with ZeroMQ and Open5GS. A virtual machine is set up for all necessary components.
+
+Modifications to the setup were made to accommodate simulation requirements. Detailed documentation of changes and results can be found in the `config` and `log` directories, respectively.
 
 ## References and Installation Guides
 
