@@ -1,0 +1,84 @@
+lisa@lisa-VirtualBox:~$ cd ~/network/srsRAN_4G/build/srsue/src/
+
+lisa@lisa-VirtualBox:~/network/srsRAN_4G/build/srsue/src$ sudo ./ue.sh
+
+[sudo] password for lisa: 
+
+creating netspace ue1...
+
+Active RF plugins: libsrsran_rf_zmq.so
+
+Inactive RF plugins: 
+
+Reading configuration file ./ue.conf...
+
+
+
+Built in Release mode using commit ec29b0c1f on branch master.
+
+
+
+Opening 1 channels in RF device=zmq with args="tx_port=tcp://*:2001,rx_port=tcp://localhost:2000,id=ue,base_srate=23.04e6"
+
+Supported RF device list: zmq file
+
+CHx base_srate=23.04e6"
+
+CHx id=ue
+
+Current sample rate is 1.92 MHz with a base rate of 23.04 MHz (x12 decimation)
+
+CH0 rx_port=tcp://localhost:2000
+
+CH0 tx_port=tcp://*:2001
+
+Waiting PHY to initialize ... done!
+
+Attaching UE...
+
+Current sample rate is 1.92 MHz with a base rate of 23.04 MHz (x12 decimation)
+
+Current sample rate is 1.92 MHz with a base rate of 23.04 MHz (x12 decimation)
+
+.
+
+Found Cell:  Mode=FDD, PCI=1, PRB=50, Ports=1, CP=Normal, CFO=-0.2 KHz
+
+Current sample rate is 11.52 MHz with a base rate of 23.04 MHz (x2 decimation)
+
+Current sample rate is 11.52 MHz with a base rate of 23.04 MHz (x2 decimation)
+
+Found PLMN:  Id=90170, TAC=7
+
+Random Access Transmission: seq=30, tti=661, ra-rnti=0x2
+
+RRC Connected
+
+Random Access Complete.     c-rnti=0x46, ta=0
+
+Network attach successful. IP: 10.45.0.2
+
+ nTp) ((t) 13/5/2024 10:28:17 TZ:99
+
+Received HO command to target PCell=6, NCC=2
+
+Current sample rate is 11.52 MHz with a base rate of 23.04 MHz (x2 decimation)
+
+Current sample rate is 11.52 MHz with a base rate of 23.04 MHz (x2 decimation)
+
+Random Access Transmission: seq=29, tti=2301, ra-rnti=0x2
+
+Random Access Complete.     c-rnti=0x46, ta=0
+
+HO successful
+
+q
+
+Stopping ..
+
+Couldn't stop after 5s. Forcing exit.
+
+Saving NAS PCAP file (DLT=148) to  
+
+./ue.sh: line 20:  4778 Killed                  sudo ./srsue ./ue.conf ${LOG_PARAMS} ${ZMQ_ARGS} --rat.eutra.dl_earfcn=3350 "$@"
+

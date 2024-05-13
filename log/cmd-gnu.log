@@ -1,0 +1,37 @@
+lisa@lisa-VirtualBox:~$ gnuradio-companion &
+
+[1] 4818
+
+lisa@lisa-VirtualBox:~$ <<< Welcome to GNU Radio Companion 3.10.7.0 >>>
+
+
+
+Block paths:
+
+	/usr/share/gnuradio/grc/blocks
+
+
+
+Loading: "/home/lisa/network/gnuradio/handover_broker.grc"
+
+>>> Done
+
+
+
+Generating: '/home/lisa/network/gnuradio/intra_enb.py'
+
+>>> Warning: The block 'blocks_throttle_0' is deprecated.
+
+
+
+Executing: /usr/bin/python3 -u /home/lisa/network/gnuradio/intra_enb.py
+
+
+
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+
+Qt GUI: Could not restore geometry: restoreGeometry(self, Union[QByteArray, bytes, bytearray]): argument 1 has unexpected type 'NoneType'
+
+
+
+>>> Done
